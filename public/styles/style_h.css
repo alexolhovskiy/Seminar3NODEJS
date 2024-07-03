@@ -1,0 +1,29 @@
+
+
+body {
+    background-image:url("../../img/home_back.jpg");
+    background-size:100% 100%;
+}
+
+
+.main{
+    position relative;
+    margin:10px auto;
+    width:80vw;
+    height:500px;
+    background:rgb(100, 148, 100);
+    border:2px solid red;
+}
+
+#quad{
+    position:absolute;
+    width:200px;
+    height:200px;
+    background:rgb(255 106 0);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-size:20px;
+    border-radius:50%;
+}
